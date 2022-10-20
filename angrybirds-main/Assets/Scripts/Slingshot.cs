@@ -91,7 +91,7 @@ public class Slingshot : MonoBehaviour
         Vector3 birdForce = (currentPosition - center.position) * force * -1;
         ball.velocity = birdForce;
 
-        ball.GetComponent<Bird>().Release();
+        ball.GetComponent<Ball>().Release();
 
         ball = null;
         ball = null;
